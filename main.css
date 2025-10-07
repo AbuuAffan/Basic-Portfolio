@@ -1,0 +1,456 @@
+.my-expertice-container-main {
+  background-color: #2d3829;
+  height: 400px;
+}
+
+.section-title {
+  padding-top: 30px;
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.my-expertice-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 43px 50px;
+}
+
+/* padding left right 50px as always  in this project*/
+
+.my-expertice-container img {
+  border-radius: 20px;
+}
+
+.ui-ux,
+.web-development,
+.development,
+.mentorship {
+  background-color: #5b7152;
+  width: 220px;
+  height: 270px;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+}
+.development {
+  gap: 70px;
+}
+
+.development img {
+  height: 145px;
+}
+
+.image-discription {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.project-info-container {
+  /* padding-left: 50px; */
+  padding-top: 30px;
+  padding: 50px 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 50px;
+  column-gap: 150px;
+}
+
+.first-project img,
+.second-project img,
+.third-project img,
+.fourth-project img {
+  width: 600px;
+  height: 500px;
+  border-radius: 30px;
+}
+.check-all-project {
+  display: flex;
+  justify-content: center;
+}
+
+.my-blogs {
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog-img img{
+  width: 400px;
+  object-fit: cover;
+}
+
+.blog-discription-setion {
+  background-color: white;
+  color: black;
+  width: 130px;
+  height: 40px;
+  border-radius: 50px;
+}
+.blog-discription-setion h3{
+ 
+  color: black;
+  text-align: center;
+  margin: 20px 0px;
+  padding-top: 8px;
+ 
+  
+}
+.time-section{
+  display: flex;
+  padding-top: 15px;
+  gap: 10px;
+  align-items: center;
+  
+}
+
+.dot{
+  margin-top: 3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: #B1C24D;
+}
+.dot2{
+  margin-top: 3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: #B410F9;
+}
+
+.blog-discription h3{
+  margin-top: 8px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.5px;
+}
+.testimonials-container {
+  display: flex;
+  flex-direction: column; /* Stacks the children vertically */
+  align-items: center; /* Centers children horizontally */
+  justify-content: center; /* Centers children vertically */
+  
+}
+.testimonials-title-container {
+  display: flex;
+  flex-direction: column; /* Ensure the items stack vertically */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  text-align: center; /* Center text inside the elements */
+  padding-top: 40px; /* Optional: Add some padding for better spacing */
+}
+
+.testimonials-title{
+  font-size: 70px;
+  
+  background: linear-gradient(90deg,#BECF52,#728829);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.card{
+  margin-top: 30px;
+  padding-left: 50px;
+  background-color: #2D3829;
+  width: fit-content;
+  margin-left: 60px;
+  height: fit-content;
+  display: flex;
+  /* gap: 20px; */
+
+}
+
+.first-two-card{
+  display: flex;
+  gap: 20px;
+}
+
+.card-image img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: -50px;
+}
+
+.testimonial-title{
+  padding: 15px 25px;
+}
+.testimonial-discription h4{
+  font-family: "Inter", sans-serif;
+  padding-left: 25px;
+  padding-right: 60px;
+  letter-spacing: 0.5px;
+}
+.second-card{
+  
+  background-color:  #2D3829;
+  width: 350px;
+  height: 620px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.card-image-second img{
+  width: 350px;
+  height: 370px;
+  object-fit: cover;
+  
+}
+
+.third-card{
+  display: flex;
+  background-color: #2D3829;
+  padding-left: 50px;
+  width: fit-content;
+  margin-left: 60px;
+  margin-top: -305px;
+  height: fit-content;
+}
+.card-image-third img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  /* margin-left: -50px; */
+}
+.testimonial-text-container-third{
+  margin-left: -50px;
+}
+
+
+.footer-container{
+  margin-top: 4px;
+  background-color: #B7C94F;
+  padding: 80px 50px;
+
+}
+.element-container{
+  display: flex;
+  gap: 700px;
+  /* justify-content: center; */
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+.mail-section{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.mail-section h4{
+  padding-top: 50px;
+}
+.border{
+  border-bottom: 2px solid white;
+ 
+  padding-bottom: 10px;
+}
+.contract-link{
+  margin-top: -265px;
+}
+
+
+.contract-link h2,
+.contract-link h3 {
+  margin-bottom: 20px; /* Adjust the spacing as needed */
+}
+
+/* Remove the bottom margin from the last element if you want */
+.contract-link h3:last-child {
+  margin-bottom: 0;
+}
+.icons{
+  display: flex;
+  gap: 25px;
+}
+
+.icons i{
+  font-size: 25px;
+}
+
+.conclution{
+  margin-top: 20PX;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+  .my-expertice-container {
+    background-color: #2d3829;
+    height: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .section-title {
+    padding-left: 150px;
+    padding-bottom: 10px;
+  }
+
+  .project-container {
+    margin-top: 1000px;
+  }
+  .first-project img,
+  .second-project img,
+  .third-project img,
+  .fourth-project img {
+    width: 300px;
+    height: 250px;
+    border-radius: 30px;
+  }
+
+  .project-info-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .my-blogs {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .blog-discription-cotainer{
+    padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 85px;
+  }
+  .testimonials-title{
+    font-size: 30px;
+  }
+  .tes-dis h4{
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+}
+
+.btn-60,
+.btn-60 *,
+.btn-60 :after,
+.btn-60 :before,
+.btn-60:after,
+.btn-60:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-60 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #45553e;
+  color: #fff; /* Set the text color */
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 15px 80px; /* Set the padding */
+  margin-top: 20px; /* Set the top margin */
+  margin-bottom: 20px; /* Set the bottom margin */
+  border-radius: 10px; /* Set the border radius */
+  text-transform: uppercase; /* Set text to uppercase */
+  position: relative;
+  box-sizing: border-box;
+  font-weight: 900;
+  display: block;
+}
+
+.btn-60:disabled {
+  cursor: default;
+}
+
+.btn-60:-moz-focusring {
+  outline: auto;
+}
+
+.btn-60 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-60 [hidden] {
+  display: none;
+}
+
+.btn-60 span {
+  background: #2d3829;
+  border: 1px solid;
+  border-radius: 999px;
+  display: grid;
+  inset: 0;
+  place-items: center;
+  pointer-events: none;
+  position: absolute;
+}
+
+.btn-60:hover span {
+  -webkit-animation: jello 0.8s;
+  animation: jello 0.8s;
+}
+
+@-webkit-keyframes jello {
+  0%,
+  11.1%,
+  to {
+    transform: translateZ(0);
+  }
+  22.2% {
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+  33.3% {
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+  44.4% {
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+  55.5% {
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+  66.6% {
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+  77.7% {
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+  88.8% {
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+
+@keyframes jello {
+  0%,
+  11.1%,
+  to {
+    transform: translateZ(0);
+  }
+  22.2% {
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+  33.3% {
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+  44.4% {
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+  55.5% {
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+  66.6% {
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+  77.7% {
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+  88.8% {
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}

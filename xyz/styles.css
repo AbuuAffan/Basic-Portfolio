@@ -1,0 +1,13 @@
+/* Reset & base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #090c23;
+  color: #fff;
+}
+
+/* Section wrapper */

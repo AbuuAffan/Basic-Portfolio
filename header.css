@@ -1,0 +1,109 @@
+/* Existing styles */
+
+
+.header-container {
+  height: 100%; /* 100vh: vh stands for "viewport height," which is a unit of measurement in CSS. 
+                    1 vh is equal to 1% of the height of the viewport (the visible part of the web page
+                     in the browser window). Therefore, 100vh means 100% of the viewport height. */
+
+  background-image: url(./images/Header-images/background\ image.png); /* using a background image */
+  background-repeat: no-repeat; /* basically background image use the imgae repeatedly to the whole screen. 
+                                        When we set it to no-repeat then we can use only one pic */
+  background-size: 450px auto; /*If our image is too large then we can resize it according to our use case  */
+  /*auto: This sets the height of the background image to be scaled automatically, maintaining the image's aspect ratio.  */
+  background-position: center top; /* We can fix the position of the image using background-position property */
+ 
+}
+
+.nav {
+  color: var(
+    --primary--front
+  ); /* Sets the text color of the navigation items. */
+
+  padding: 20px; /* creating space between the content and the border of the element. */
+
+  display: flex; /* Flexbox provides more control over the alignment, direction, and 
+                    spacing of items within the container compared to traditional layout methods.*/
+
+  justify-content: space-between; /* The first item is placed at the start, the last item is placed at the end,
+                                       and any additional space is distributed evenly between the items. */
+  gap: 20px; /* gap between each element */
+
+  font-size: 33px;
+  padding-top: 20px; /* creating space between the content and the border of the element.
+                         We can give the direction as here is top. */
+}
+
+#right-Side-Icon {
+  width: 155px;
+  /* set the width */
+  text-align: right;
+  /* alingment of the element  */
+}
+
+.banner-title h1 {
+  font-weight: 900;
+  font-size: 100px;
+  color: var(--primary--front);
+  text-transform: uppercase;
+  /* makes text uppercase/lowercase and more  `Qq  */
+  text-align: center;
+  letter-spacing: 2px;
+}
+.banner-discription {
+  font-weight: 900;
+  font-size: 20px;
+  color: var(--primary--front);
+  text-transform: uppercase;
+  margin: 15px 0px;
+}
+.banner-profile-container {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--primary--front);
+  border-bottom: 1px solid var(--primary--front);
+}
+
+#banner-image {
+  height: 350px;
+
+  display: block;
+}
+.banner-image-discription {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-size: 30px;
+}
+
+.work-icon {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0px;
+  border-bottom: 2px solid var(--primary--front);
+  position: relative;
+  top: -10px;
+}
+.check-work-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.work-history-numeric {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: 150px;
+  color: var(--primary--front);
+}
+.work-history-discriptive {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.text {
+  padding: 50px 0px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root {
+  --primary--front: whitesmoke;
+  --background--color: #3b5330;
+  --primary--color: #ba0bf9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Antonio", sans-serif;
+  font-weight: 400;
+  color: var(--primary--front);
+}
+
+body {
+  background-color: var(--background--color);
+ 
+ 
+}
+
+.header-container{
+  padding: 0px 50px;
+}
